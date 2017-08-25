@@ -1,0 +1,3 @@
+# copy this to /etc/cron.d
+*/5 * * * * username python /pathtoscript/updateip.py
+@reboot     username python /pathtoscript/updateip.py
