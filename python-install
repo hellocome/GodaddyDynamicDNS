@@ -3,6 +3,5 @@ sudo python3 -m venv /usr/local/godaddy-dyndns/py
 /usr/local/godaddy-dyndns/py/bin/pip install configparser
 /usr/local/godaddy-dyndns/py/bin/pip install ipaddress
 /usr/local/godaddy-dyndns/py/bin/pip install godaddypy 
-
-/usr/local/godaddy-dyndns/py/bin/pip install --upgrade pip enum34
-
+/usr/local/godaddy-dyndns/py/bin/pip install configloader 
+/usr/local/godaddy-dyndns/py/bin/pip install pyyaml 
