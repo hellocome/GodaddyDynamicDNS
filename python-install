@@ -1,9 +1,8 @@
-curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
-sudo python2 get-pip.pypip
-pip install pif
-pip install configparser
-pip install ipaddress
-pip install godaddypy 
+sudo python3 -m venv /usr/local/godaddy-dyndns/py
+/usr/local/godaddy-dyndns/py/bin/pip install pif
+/usr/local/godaddy-dyndns/py/bin/pip install configparser
+/usr/local/godaddy-dyndns/py/bin/pip install ipaddress
+/usr/local/godaddy-dyndns/py/bin/pip install godaddypy 
 
-pip install --upgrade pip enum34
+/usr/local/godaddy-dyndns/py/bin/pip install --upgrade pip enum34
 
